@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro component with sign-up form</title>
+    <!-- Family: [Poppins] weight 400 -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:ital,wght@0,800;1,800&family=League+Spartan:wght@700&family=Lexend+Deca:wght@800&family=Open+Sans:ital@0;1&family=Poppins&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Family: [Poppins] weight 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:ital,wght@0,800;1,800&family=League+Spartan:wght@700&family=Lexend+Deca:wght@700&family=Open+Sans:ital@0;1&family=Poppins&family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <div class="signup-form">
+        <div class="left">
+            <h1 class="heading">Learn to code by watching others</h1>
+            <p class="description"> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. 
+              </p>
+        </div>
+        <div class="rigth">
+            <p class="trial"> <span class="bold">Try it free 7</span> days then $20/mo. thereafter</p>
+            <div class="form1">
+                <form>
+                <input type="text" id="fname" placeholder="First Name ">
+                <span class="error" id="errormsg1">please enter your first name</span>
+                <input type="text" id="lname" placeholder=" Last Name ">
+                <span class="error" id="errormsg2">please enter your Last name</span>
+                <input type="email" id="email1" placeholder="abc@gmail.com" ">
+                <span class="error" id="errormsg3">please enter correct email</span>
+                <input type="password" id="password1" placeholder=" Password ">
+                <span class="error" id="errormsg4">please enter your password</span>
+                </form>
+                <button type="button" onclick="validateForm ()"> Claim your free trial </button>
+                <footer class="footer"> By clicking the button, you are agreeing to our <span class="red">Terms and Services</span> </footer>
+            </div>
+            <div id="thanks">
+                <h2>Thank you for your interest</2>
+                </div>
+           
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
